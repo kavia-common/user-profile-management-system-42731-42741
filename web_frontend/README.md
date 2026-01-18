@@ -11,6 +11,14 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+### Backend API base URL
+
+By default the frontend calls the backend at `http://localhost:3001`.
+
+To override, set:
+- `REACT_APP_API_BASE_URL` (example: `https://your-backend.example.com`)
+
+
 In the project directory, you can run:
 
 ### `npm start`
